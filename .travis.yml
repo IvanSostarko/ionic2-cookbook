@@ -6,3 +6,7 @@ node_js:
 before_install:
   - currentfolder=${PWD##*/}
   - if [ "$currentfolder" != 'generator-ionic' ]; then cd .. && eval "mv $currentfolder generator-ionic" && cd generator-ionic; fi
+
+addons:
+    code_climate:
+        repo_token: 6f70a51827d5eac13e6580d477d57f50c03bea49d84afc3619cd3a6391bf11afss
