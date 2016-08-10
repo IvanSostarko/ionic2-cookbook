@@ -1,5 +1,5 @@
 # Ionic 2 CookBook
-> This is a simple CookBook Hybrid App.
+> Simple CookBook Mobile Hybrid App.
 
 > This is built on Ionic 2 framework.
 
@@ -9,3 +9,28 @@
 
 ## API
 Here you can find API for this project: [https://github.com/IvanSostarko/laravel-5-2-cook-book](https://github.com/IvanSostarko/laravel-5-2-cook-book)
+
+#Setup
+
+## Install Cordova
+```sh
+npm install -g cordova
+```
+
+## Install Ionic 2 
+```sh
+npm install -g ionic@beta
+```
+
+## Clone repository
+```sh
+git clone https://github.com/IvanSostarko/ionic2-cookbook.git
+```
+
+## Start project
+```sh
+ionic serve
+```
+
+
+
