@@ -1,6 +1,6 @@
 {
   "name": "Ionic2-cookbook",
   "tagline": "Simple Ionic 2 Cookbook App",
-  "body": "#Homepage\r\n![](https://raw.githubusercontent.com/IvanSostarko/ionic2-cookbook/gh-pages/1.png)\r\n\r\n#Search \r\n![](https://raw.githubusercontent.com/IvanSostarko/ionic2-cookbook/gh-pages/4.png)\r\n\r\n#Category \r\n![](https://raw.githubusercontent.com/IvanSostarko/ionic2-cookbook/gh-pages/2.png)\r\n\r\n#Item \r\n![](https://raw.githubusercontent.com/IvanSostarko/ionic2-cookbook/gh-pages/3.png)",
+  "body": "## Android Demo\r\n![](https://github.com/IvanSostarko/ionic2-cookbook/blob/gh-pages/gifs/andoird-new.gif)\r\n\r\n#Homepage\r\n![](https://raw.githubusercontent.com/IvanSostarko/ionic2-cookbook/gh-pages/1.png)\r\n\r\n#Search \r\n![](https://raw.githubusercontent.com/IvanSostarko/ionic2-cookbook/gh-pages/4.png)\r\n\r\n#Category \r\n![](https://raw.githubusercontent.com/IvanSostarko/ionic2-cookbook/gh-pages/2.png)\r\n\r\n#Item \r\n![](https://raw.githubusercontent.com/IvanSostarko/ionic2-cookbook/gh-pages/3.png)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
