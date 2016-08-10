@@ -5,6 +5,7 @@
 
 [![Build Status](https://travis-ci.org/IvanSostarko/ionic2-cookbook.svg?branch=master)](https://travis-ci.org/IvanSostarko/ionic2-cookbook)
 [![Code Climate](https://codeclimate.com/github/IvanSostarko/ionic2-cookbook/badges/gpa.svg)](https://codeclimate.com/github/IvanSostarko/ionic2-cookbook)
+[![Throughput Graph](https://graphs.waffle.io/IvanSostarko/ionic2-cookbook/throughput.svg)](https://waffle.io/IvanSostarko/ionic2-cookbook/metrics/throughput)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/IvanSostarko/ionic2-cookbook/blob/master/LICENSE)
 
 ## API
