@@ -27,7 +27,7 @@ export class CategoryPage {
         this.category_name = params.get("category_name");
 
         this.presentLoading();
-        //Get data
+
         this.http.get(API_URL + 'category/' + this.category_id).map(res => res.json()).subscribe(data => {
             this.items = data.data;
         });

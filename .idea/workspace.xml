@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="801b2a8b-468c-43d8-9f6d-f98f7526ec2b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.ts" afterPath="$PROJECT_DIR$/app/app.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config.ts" afterPath="$PROJECT_DIR$/app/config.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/category/category.html" afterPath="$PROJECT_DIR$/app/pages/category/category.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/category/category.ts" afterPath="$PROJECT_DIR$/app/pages/category/category.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.html" afterPath="$PROJECT_DIR$/app/pages/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.ts" afterPath="$PROJECT_DIR$/app/pages/home/home.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/item/item.html" afterPath="$PROJECT_DIR$/app/pages/item/item.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/item/item.ts" afterPath="$PROJECT_DIR$/app/pages/item/item.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/search/search.html" afterPath="$PROJECT_DIR$/app/pages/search/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/search/search.ts" afterPath="$PROJECT_DIR$/app/pages/search/search.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/theme/app.variables.scss" afterPath="$PROJECT_DIR$/app/theme/app.variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="ionic2-cookbook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,21 +26,7 @@
     <favorites_list name="ionic2-cookbook" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="item.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/pages/item/item.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#226#263#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,11 +48,11 @@
         <option value="$PROJECT_DIR$/app/pages/search/search.html" />
         <option value="$PROJECT_DIR$/app/pages/search/search.ts" />
         <option value="$PROJECT_DIR$/app/pages/home/home.ts" />
-        <option value="$PROJECT_DIR$/app/pages/category/category.ts" />
         <option value="$PROJECT_DIR$/app/pages/home/home.html" />
         <option value="$PROJECT_DIR$/app/pages/category/category.html" />
         <option value="$PROJECT_DIR$/app/pages/item/item.ts" />
         <option value="$PROJECT_DIR$/app/pages/item/item.html" />
+        <option value="$PROJECT_DIR$/app/pages/category/category.ts" />
       </list>
     </option>
   </component>
@@ -297,19 +272,27 @@
       <option name="presentableId" value="Default" />
       <updated>1470778458893</updated>
       <workItem from="1470778462678" duration="9969000" />
-      <workItem from="1470826978589" duration="5033000" />
+      <workItem from="1470826978589" duration="6290000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixes">
+      <created>1470832910896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1470832910896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15002000" />
+    <option name="totallyTimeSpent" value="16259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1055" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -337,6 +320,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -499,34 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/category/category.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/category/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/item/item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -571,6 +534,32 @@
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#226#263#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/item/item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/category/category.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#273#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/category/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
