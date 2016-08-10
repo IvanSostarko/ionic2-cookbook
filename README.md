@@ -1,5 +1,6 @@
 # Ionic 2 CookBook
 > This is a simple CookBook Hybrid App.
+
 > This is built on Ionic 2 framework.
 
 [![Build Status](https://travis-ci.org/IvanSostarko/ionic2-cookbook.svg?branch=master)](https://travis-ci.org/IvanSostarko/ionic2-cookbook)
