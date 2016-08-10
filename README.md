@@ -1,5 +1,5 @@
 # Ionic 2 CookBook
-> Simple CookBook Mobile Hybrid App.
+> Simple CookBook Mobile Hybrid App for Android, iOS and Windows OS.
 
 > This is built on Ionic 2 framework.
 
@@ -32,5 +32,18 @@ git clone https://github.com/IvanSostarko/ionic2-cookbook.git
 ionic serve
 ```
 
+## Android Demo
+![](https://github.com/IvanSostarko/ionic2-cookbook/blob/gh-pages/gifs/android.gif)
 
 
+
+## Contributing
+#### Bug Reports & Feature Requests
+
+Please use the [issue tracker](https://github.com/IvanSostarko/ionic2-cookbook/issues) to report any bugs or file feature requests.
+
+
+## License
+>You can check out the full license [here](https://github.com/IvanSostarko/ionic2-cookbook/blob/master/LICENSE)
+
+This project is licensed under the terms of the **MIT** license.
