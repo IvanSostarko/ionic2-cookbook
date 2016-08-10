@@ -33,7 +33,7 @@ ionic serve
 ```
 
 ## Android Demo
-![](https://github.com/IvanSostarko/ionic2-cookbook/blob/gh-pages/gifs/android.gif)
+![](https://github.com/IvanSostarko/ionic2-cookbook/blob/gh-pages/gifs/andoird-new.gif)
 
 ## iOS Demo
 ![](https://github.com/IvanSostarko/ionic2-cookbook/blob/gh-pages/gifs/ios.gif)
