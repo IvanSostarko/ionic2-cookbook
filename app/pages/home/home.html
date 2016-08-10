@@ -8,11 +8,11 @@
 </ion-header>
 
 <ion-content  class="home">
-  <ion-card>
-  <img src="img/nin-live.png"/>
+  <ion-card *ngFor="let category of categories">
+  <img src="{{path}}{{ category.image}}" (click)="navigate(category.id, category.name)"/>
   <ion-card-content>
-    <ion-card-title>
-      Nine Inch Nails Live
+    <ion-card-title (click)="navigate(category.id, category.name)">
+      {{ category.name}}
     </ion-card-title>
   </ion-card-content>
 </ion-card>
