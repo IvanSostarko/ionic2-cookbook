@@ -35,6 +35,11 @@ ionic serve
 ## Android Demo
 ![](https://github.com/IvanSostarko/ionic2-cookbook/blob/gh-pages/gifs/android.gif)
 
+## iOS Demo
+![](https://github.com/IvanSostarko/ionic2-cookbook/blob/gh-pages/gifs/ios.gif)
+
+## Windows Demo
+![](https://github.com/IvanSostarko/ionic2-cookbook/blob/gh-pages/gifs/windows.gif)
 
 
 ## Contributing
