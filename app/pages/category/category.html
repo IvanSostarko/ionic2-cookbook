@@ -1,5 +1,5 @@
 <ion-header>
-    <ion-navbar>
+    <ion-navbar primary>
         <ion-title>{{category_name}}</ion-title>
     </ion-navbar>
 </ion-header>
@@ -12,10 +12,12 @@
                 <img src="{{path}}{{ item.image}}" (click)="navigate(item.id, item.name)">
             </ion-thumbnail>
             <h2 (click)="navigate(item.id, item.name)">{{item.name}}</h2>
-            <p><ion-icon name="timer" item-left></ion-icon> {{item.time}}</p>
-
+            <p>
+                <ion-icon name="timer" item-left></ion-icon>
+                {{item.time}} min
+            </p>
         </ion-item>
 
 
-        </ion-list>
+    </ion-list>
 </ion-content>

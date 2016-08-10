@@ -1,14 +1,14 @@
 <ion-header>
-    <ion-navbar>
+    <ion-navbar primary>
         <ion-title>{{item_name}}</ion-title>
     </ion-navbar>
 </ion-header>
 
 <ion-content class="item">
     <div *ngFor="let item of items">
-    <ion-card>
-   <img src="{{path}}{{item.image}}" width="100%" />
-    </ion-card>
+        <ion-card>
+            <img src="{{path}}{{item.image}}" width="100%"/>
+        </ion-card>
 
 
         <ion-card>
@@ -34,21 +34,21 @@
         </ion-card>
 
         <ion-card>
-        <ion-list>
-            <ion-item>
-                <ion-icon name="leaf" item-left></ion-icon>
-                Preparation time: {{item.time}}
+            <ion-list>
+                <ion-item>
+                    <ion-icon name="timer" item-left></ion-icon>
+                    Preparation time: {{item.time}}
 
-            </ion-item>
+                </ion-item>
 
-            <ion-item>
-                <ion-icon name="leaf" item-left></ion-icon>
-                Published date: {{item.created_at}}
+                <ion-item>
+                    <ion-icon name="calendar" item-left></ion-icon>
+                    Published date:  {{item.created_at | date: 'dd/MM/yyyy'}}
 
-            </ion-item>
+                </ion-item>
 
-        </ion-list>
-            </ion-card>
+            </ion-list>
+        </ion-card>
 
     </div>
 </ion-content>

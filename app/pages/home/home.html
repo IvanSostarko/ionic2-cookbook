@@ -1,19 +1,23 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Recieps</ion-title>
-    <ion-buttons end>
-      <ion-icon name="search"></ion-icon>
-    </ion-buttons>
-  </ion-navbar>
+    <ion-navbar primary>
+        <ion-title>Recipes</ion-title>
+
+        <ion-buttons end>
+            <button (click)="openSearchPage()">
+                <ion-icon name="search"></ion-icon>
+            </button>
+
+        </ion-buttons>
+    </ion-navbar>
 </ion-header>
 
-<ion-content  class="home">
-  <ion-card *ngFor="let category of categories">
-  <img src="{{path}}{{ category.image}}" (click)="navigate(category.id, category.name)"/>
-  <ion-card-content>
-    <ion-card-title (click)="navigate(category.id, category.name)">
-      {{ category.name}}
-    </ion-card-title>
-  </ion-card-content>
-</ion-card>
+<ion-content class="home">
+    <ion-card *ngFor="let category of categories">
+        <img src="{{path}}{{ category.image}}" (click)="navigate(category.id, category.name)"/>
+        <ion-card-content>
+            <ion-card-title (click)="navigate(category.id, category.name)">
+                {{ category.name}}
+            </ion-card-title>
+        </ion-card-content>
+    </ion-card>
 </ion-content>

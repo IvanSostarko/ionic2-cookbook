@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
-import {NavController,NavParams} from 'ionic-angular';
-import { LoadingController } from 'ionic-angular';
+import {NavController, NavParams} from 'ionic-angular';
+import {LoadingController} from 'ionic-angular';
 import {Http} from '@angular/http';
 import 'rxjs/add/operator/map';
 
@@ -12,7 +12,6 @@ import {API_URL} from '../../config';
 import {SERVER_URL} from '../../config';
 
 
-
 @Component({
     templateUrl: 'build/pages/category/category.html'
 })
@@ -20,10 +19,10 @@ export class CategoryPage {
 
     public category_id:any;
     public category_name:any;
-    public items: any;
+    public items:any;
     public path = SERVER_URL;
 
-    constructor(private navCtrl: NavController, params: NavParams, private http: Http, private loadingController: LoadingController) {
+    constructor(private navCtrl:NavController, params:NavParams, private http:Http, private loadingController:LoadingController) {
         this.category_id = params.get("category_id");
         this.category_name = params.get("category_name");
 
@@ -42,9 +41,9 @@ export class CategoryPage {
         loader.present();
     }
 
-    navigate(item_id, item_name){
+    navigate(item_id, item_name) {
         console.log(item_id);
-        this.navCtrl.push(ItemPage,{
+        this.navCtrl.push(ItemPage, {
             item_id: item_id,
             item_name: item_name
 

@@ -1,17 +1,30 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Search</ion-title>
-  </ion-navbar>
+    <ion-navbar primary>
+        <ion-title>Search</ion-title>
+    </ion-navbar>
 </ion-header>
 
-<ion-content padding class="search">
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>app/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class="search">
+    <ion-searchbar
+            [(ngModel)]="searchQuery"
+            (input)="onInput($event)"
+            [showCancelButton]="shouldShowCancel"
+            [debounce]=1000
+            placeholder="Search here...">
+    </ion-searchbar>
+
+    <ion-list>
+        <ion-item *ngFor='let result of results' (click)="navigate(result.id, result.name)">
+            <ion-thumbnail item-left (click)="navigate(result.id, result.name)">
+                <img src="{{path}}{{ result.image }}">
+            </ion-thumbnail>
+            <h2 (click)="navigate(result.id, result.name)">{{result.name}}</h2>
+            <p>
+                <ion-icon name="timer" item-left></ion-icon>
+                {{result.time}}
+            </p>
+
+        </ion-item>
+    </ion-list>
+
 </ion-content>
