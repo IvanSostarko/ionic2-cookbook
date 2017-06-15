@@ -10,7 +10,7 @@
 ## API
 Here you can find API for this project: [https://github.com/IvanSostarko/laravel-5-2-cook-book](https://github.com/IvanSostarko/laravel-5-2-cook-book)
 
-#Setup
+# Setup
 
 ## Install Cordova
 ```sh
