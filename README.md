@@ -1,4 +1,6 @@
 # Ionic 2 CookBook
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/IvanSostarko/ionic2-cookbook.svg)](https://greenkeeper.io/)
 > Simple CookBook Mobile Hybrid App for Android, iOS and Windows OS.
 
 > This is built on Ionic 2 framework.
